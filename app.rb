@@ -9,9 +9,9 @@ def compare(a, b)
 
   #Challenge 2: Ordered Count of Characters(Toy Problem)
 
-  def ordered_count(str)
-    counts = Hash.new(0)
-    str.chars.each { |char| counts[char] += 1 }
-    counts.map { |k, v| [k, v] }
-  end
+  #def ordered_count(str)
+    #counts = Hash.new(0)
+    #str.chars.each { |char| counts[char] += 1 }
+    #counts.map { |k, v| [k, v] }
+  #end
   
